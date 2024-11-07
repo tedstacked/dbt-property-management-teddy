@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: units
+    description: raw list of units
+    database: raw
+    schema: property_management
+    tables:
+      - name: units
+        description: raw table of units
+        columns:
+          - name: id
+            description: primary key for units data

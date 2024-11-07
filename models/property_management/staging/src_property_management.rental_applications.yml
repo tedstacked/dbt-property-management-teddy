@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: rental_applications
+    description: raw list of rental applications
+    database: raw
+    schema: property_management
+    tables:
+      - name: rental_applications
+        description: raw table of rental applications
+        columns:
+          - name: id
+            description: primary key for rental application data

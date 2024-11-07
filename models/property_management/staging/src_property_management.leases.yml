@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: leases
+    description: raw list of leases
+    database: raw
+    schema: property_management
+    tables:
+      - name: leases
+        description: raw table of leases
+        columns:
+          - name: id
+            description: primary key for lease data

@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: properties
+    description: raw list of properties
+    database: raw
+    schema: property_management
+    tables:
+      - name: properties
+        description: raw table of properties
+        columns:
+          - name: id
+            description: primary key for property data
